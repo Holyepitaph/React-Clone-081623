@@ -1,10 +1,12 @@
-
+'use client'
+import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export function AnimA(){
     return(
-        <div>
-            <div>RELAX AND ENJOY LIFE IN THE HISTORIC DOWNTOWN AND NUEVO MAZATLAN</div>
-            <button className="bg-red-800 text-white">BOOK NOW</button>
+        <div className="flex flex-col items-center justify-center ml-8 mr-8 h-[18.58rem]">
+            <div className="text-2xl text-center mb-12">RELAX AND ENJOY LIFE IN THE HISTORIC DOWNTOWN AND NUEVO MAZATLAN</div>
+            <button className="bg-red-800 text-white rounded w-[8.5rem] py-1">BOOK NOW</button>
         </div>
     )
 }
@@ -12,7 +14,48 @@ export function AnimA(){
 export function AnimB(){
     return(
         <div>
-            <div>Create 5 Picture Carousel Here</div>
+            <motion.div className='flex'>
+                <Image
+                  src="/b.jpg"
+                  alt="Vercel Logo"
+                  className="w-full h-[24.8rem]"
+                  width={100}
+                  height={24}
+                  priority
+                />
+                 <Image
+                  src="/c.jpg"
+                  alt="Vercel Logo"
+                  className=" w-full h-[24.8rem]"
+                  width={100}
+                  height={24}
+                  priority
+                />
+                  <Image
+                  src="/d.jpg"
+                  alt="Vercel Logo"
+                  className="w-full h-[24.8rem]"
+                  width={100}
+                  height={24}
+                  priority
+                />
+                 <Image
+                  src="/e.jpg"
+                  alt="Vercel Logo"
+                  className="w-full h-[24.8rem]"
+                  width={100}
+                  height={24}
+                  priority
+                />
+                 <Image
+                  src="/f.jpg"
+                  alt="Vercel Logo"
+                  className=" w-full h-[24.8rem]"
+                  width={100}
+                  height={24}
+                  priority
+                />
+            </motion.div>
             <div>
                 <div>MAY YOUR BUSINESS BE A PLEASURE</div>
                 <div>Relax and enjoy life in Old Mazatian at our Dwana  Hotel. Located in the heart of the Historic Center, a few steps

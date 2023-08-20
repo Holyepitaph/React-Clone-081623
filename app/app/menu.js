@@ -2,18 +2,20 @@ import Image from 'next/image'
 
 export function Menu(){
     return(
-        <div className="flex w-full flex-col items-center justify-between">
-            <div className="flex gap-4 justify-between w-full">
+        <div className="flex w-full flex-col items-center justify-between absolute text-white sticky top-6 bg-[#C9B79C] h-20 pt-5">
+            <div className="flex gap-28 justify-evenly w-full">
                 <div>X</div>
                 <div>Image</div>
-                <div>EN</div>
+                <div className='border p-1.5'>EN</div>
             </div>
-            <div>START</div>
-            <div>BEDROOMS</div>
-            <div>PACKAGES</div>
-            <div>TO DO</div>
-            <div>US</div>
-            <div>CONTACT US</div>
+            <div className='hidden'>
+                <div>START</div>
+                <div>BEDROOMS</div>
+                <div>PACKAGES</div>
+                <div>TO DO</div>
+                <div>US</div>
+                <div>CONTACT US</div>
+            </div>
             {/* missing in responsive */}
             {/* <div>669 176 7010</div>
             <div>SPANISH</div> */}
@@ -25,23 +27,23 @@ export function Menu(){
 
 export function Hero(){
     return(
-        <div>
+        <div className='z-0 mt-0'>
               <Image
-              src="/vercel.svg"
+              src="/a.jpg"
               alt="Vercel Logo"
-              className="absolute top-0 w-full h-96"
+              className="top-0 w-full h-[24.8rem]"
               width={100}
               height={24}
               priority
             />
-            <div className='absolute'>Phone</div>
+            <div className='absolute bg-[#C9B79C] text-[#402B0C] absolute top-[12.5rem] -right-1 rounded-md h-[3.2rem] w-[4.05rem]'>Phone</div>
         </div>
     )
 }
 
 export function Booking(){
     return(
-        <div className="flex flex-col sticky top-44">
+        <div className="flex flex-col sticky top-[17rem] text-[#402B0C] h-[3.2rem] w-[4.05rem] ml-[19.6rem] rounded-md bg-[#D3C3AC]">
             <div>D</div>
             <div>BOOKING</div>
         </div>
