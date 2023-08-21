@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Menu(){
     return(
-        <div className="flex w-full flex-col items-center justify-between absolute text-white sticky top-6 bg-[#C9B79C] h-20 pt-5">
+        <div className="flex w-full flex-col items-center justify-between absolute text-white sticky top-6 bg-[#C9B79C] h-20 pt-5 z-10">
             <div className="flex gap-28 justify-evenly w-full">
                 <div>X</div>
                 <div>Image</div>
@@ -43,7 +43,7 @@ export function Hero(){
 
 export function Booking(){
     return(
-        <div className="flex flex-col sticky top-[17rem] text-[#402B0C] h-[3.2rem] w-[4.05rem] ml-[19.6rem] rounded-md bg-[#D3C3AC]">
+        <div className="flex flex-col sticky top-[17rem] text-[#402B0C] h-[3.2rem] w-[4.05rem] ml-[19.6rem] rounded-md bg-[#D3C3AC] z-20">
             <div>D</div>
             <div>BOOKING</div>
         </div>
