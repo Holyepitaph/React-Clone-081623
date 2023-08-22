@@ -32,7 +32,7 @@ body {
   position: relative;
   border-radius: 10px;
   height: 16.1rem;
-  max-width: 650px;
+  width:100vw;
   margin: auto;
   overflow: hidden;
 }
@@ -40,6 +40,7 @@ body {
   width: 99%;
   height: 99%;
   border-radius: 8px;
+  margin: 0 auto;
 }
 .slide_direction {
   display: flex;
@@ -80,4 +81,11 @@ body {
 }
 .active {
   background-color: #fa2020;
+}
+
+@media only screen and (min-width: 640px) { 
+  .carousel-images{
+    height: 39rem;
+  }
+  
 }
