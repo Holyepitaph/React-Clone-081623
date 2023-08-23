@@ -720,7 +720,7 @@ export function AnimJ(){
                 <Image
                 src="/map.jpg"
                 alt="Vercel Logo"
-                className="mt-2 lg:m-auto  h-[70%] w-[70%]"
+                className="mt-2 lg:m-auto h-full w-full  lg:h-[70%] lg:w-[70%]"
                 width={1000}
                 height={1000}
                 priority
@@ -770,7 +770,7 @@ export function AnimK(){
             <Image
                 src="/gd.webp"
                 alt="Vercel Logo"
-                className=" h-full w-full"
+                className="col-span-2 lg:col-span-1 h-full w-full"
                 width={400}
                 height={400}
                 priority
