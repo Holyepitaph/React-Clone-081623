@@ -25,10 +25,14 @@ export default function Home() {
       <AnimC/>
       <AnimD/>
       <AnimH/>
-      <AnimI/>
-      <AnimJ/>
-      <AnimK/>
-      <AnimL/>
+      <div className='lg:flex lg:mt-6  lg:mb-6 lg:h-[26rem] lg:pb-0'>
+        <AnimI/>
+        <AnimJ/>
+      </div>
+      <div className='lg:flex lg:gap-4'>
+        <AnimK/>
+        <AnimL/>
+      </div>
       <Promo/>
       <Footer/>
       <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=console.debug&libraries=maps,marker&v=beta">

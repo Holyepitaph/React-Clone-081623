@@ -32,9 +32,10 @@ export function Menu(){
     };
     return(
         <motion.div className={isClick ? "h-full" : "h-20"} 
-        className="flex w-full flex-col items-center justify-between text-white fixed top-2 left-0 right-0 bg-[#C9B79C]  pt-5 z-10">
+        className="flex w-full flex-col items-center justify-between text-white  shadow-xl 
+        fixed top-2 left-0 right-0 bg-[#C9B79C]  pt-5 z-10">
           <div className="flex gap-28 justify-evenly w-full">
-              <div className='mt-1' onClick={toggleClickMenu}>=</div>
+              <div className='mt-1 cursor-pointer lg:text-3xl lg:-mt-1' onClick={toggleClickMenu}>=</div>
               <Image
                   src="/logo.svg"
                   alt="Vercel Logo"
@@ -79,12 +80,14 @@ export function Hero(){
                         <Image
             src="/logo.svg"
             alt="Vercel Logo"
-            className="absolute top-0 left-[43vw] h-[3rem] w-[3rem] z-0"
+            className="absolute top-0 left-[47vw] h-[3rem] w-[3rem] z-0"
             width={50}
             height={50}
             priority
             />
-            <div className='absolute bg-[#C9B79C] text-[#402B0C] absolute top-[12.5rem] -right-1 rounded-md h-[3.2rem] w-[4.05rem] flex justify-center items-center'>              <Image
+            <div className='absolute bg-[#C9B79C] text-[#402B0C]  shadow-xl  absolute top-[12.5rem]
+             -right-1 rounded-md h-[3.2rem] w-[4.05rem] flex justify-center items-center'> 
+                          <Image
               src="/phone.png"
               alt="Vercel Logo"
               className="w-3/4 h-3/4"
@@ -98,7 +101,8 @@ export function Hero(){
 
 export function Booking(){
     return(
-        <div className="flex flex-col justify-center items-center sticky top-[17rem] text-[#402B0C] h-[3.2rem] w-[4.05rem] left-full right-0 text-xs rounded-md bg-[#D3C3AC] z-20">
+        <div className="flex flex-col justify-center  shadow-xl 
+         items-center sticky top-[17rem] text-[#402B0C] h-[3.2rem] w-[4.05rem] left-full right-0 text-xs rounded-md bg-[#D3C3AC] z-20">
               <Image
               src="/calender.png"
               alt="Vercel Logo"

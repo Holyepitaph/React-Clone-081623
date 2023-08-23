@@ -6,8 +6,8 @@ import { motion,AnimatePresence,useScroll } from 'framer-motion'
 export function AnimA(){
     return(
         <div className="flex flex-col items-center justify-center ml-8 mr-8 sm:mx-12 h-[18.58rem]">
-            <div className="text-2xl sm:text-[2.5rem] text-center mb-12">RELAX AND ENJOY LIFE IN THE HISTORIC LUMINA CAVERNS ON AETHERIUS PLANET</div>
-            <button className="bg-red-800 text-white rounded w-[8.5rem] py-1">BOOK NOW</button>
+            <div className="text-2xl sm:text-[2.5rem] text-center mb-12 lg:text-5xl">RELAX AND ENJOY LIFE IN THE HISTORIC LUMINA CAVERNS ON AETHERIUS PLANET</div>
+            <button className="bg-red-800 text-white  drop-shadow-2xl  rounded w-[8.5rem] py-1">BOOK NOW</button>
         </div>
     )
 }
@@ -94,8 +94,8 @@ export function AnimB(){
 
     return(
         <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} 
-        viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className=''>
-            <div className="carousel">
+        viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='lg:flex  shadow-xl  lg:mx-12 lg:h-[35.4rem] lg:mb-12'>
+            <div className="carousel ">
                 <div className="carousel-images">
                 <AnimatePresence>
                 <motion.img
@@ -141,8 +141,9 @@ export function AnimB(){
                 ))}
             </div>
             </div>
-            <div className=' bg-[#ffffff] h-[25rem] relative -top-[4rem] flex flex-col items-center px-2 mx-6 sm:mx-12 text-center'>
-                <div className='text-xl pt-11 font-medium sm:text-[3rem]'>Recover in Elegence</div>
+            <div className=' bg-[#ffffff] h-[21rem] sm:h-[26rem] relative -top-[4rem]  shadow-xl 
+            flex flex-col items-center px-2 mx-6 sm:mx-12 text-center lg:top-0 lg:h-full lg:w-1/2 lg:mx-0'>
+                <div className='text-xl pt-11 font-medium sm:text-[3rem] lg:text-4xl'>Recover in Elegence</div>
                 <Image
               src="/icon.png"
               alt="Vercel Logo"
@@ -155,7 +156,7 @@ export function AnimB(){
                 soothing properties of crystals enhance your relaxation. Immerse yourself in meditation and yoga 
                 sessions at our Aetherius Energy Center. Take a refreshing dip in our pristine, crystal-infused water 
                 and underground springs, ensuring a truly revitalizing experience.</div>
-                <button className="bg-red-900 text-sm sm:text-lg text-white py-1 px-6 rounded mt-[1.9rem]">BOOK NOW</button>
+                <button className="bg-red-900 text-sm sm:text-lg  shadow-xl  text-white py-1 px-6 rounded mt-[1.9rem]">BOOK NOW</button>
             </div>
         </motion.div>
     )
@@ -263,7 +264,8 @@ export function AnimF(){
       "/ca.jpg",
     ];
     return(
-        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='h-[35.4rem] sm:mb-[30rem] '>
+        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}
+         viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='h-[35.4rem]  shadow-xl  -mt-8 mb-6 sm:mb-[29rem] lg:flex lg:mx-12 lg:mb-0'>
             <div className="carousel">
                 <div className="carousel-images">
                 <AnimatePresence>
@@ -309,8 +311,9 @@ export function AnimF(){
                 ))}
             </div>
             </div>
-            <div className=' bg-[#ffffff] h-[20.8rem] relative -top-[4rem] flex flex-col items-center px-2 mx-6 text-center sm:mx-12 sm:h-[25rem]'>
-                <div className='text-xl sm:text-[3rem] pt-11 font-medium'>Enjoy Nature's Wonders</div>
+            <div className=' bg-[#ffffff] h-[20.8rem] relative -top-[4rem] lg:top-0  shadow-xl 
+             lg:h-full lg:w-1/2 lg:mx-0 flex flex-col items-center px-2 mx-6 text-center sm:mx-12 sm:h-[25rem]'>
+                <div className='text-xl sm:text-[3rem] pt-11 font-medium lg:text-4xl'>Enjoy Nature's Wonders</div>
                 <Image
               src="/icon.png"
               alt="Vercel Logo"
@@ -323,7 +326,7 @@ export function AnimF(){
                 for an even more mesmerizing perspective, peer through our cutting-edge telescopes 
                 in the Celestial Observatory. Alternatively, immerse yourself in the captivating beauty
                  of our Hidden Enchanted Garden, where exotic luminescent plants create a magical ambiance.</div>
-                <button className="bg-red-900 text-sm sm:text-lg text-white py-1 px-6 rounded mt-[1.7rem]">BOOK NOW</button>
+                <button className="bg-red-900 text-sm  shadow-xl  sm:text-lg text-white py-1 px-6 rounded mt-[1.7rem]">BOOK NOW</button>
             </div>
         </motion.div>
     )
@@ -406,7 +409,9 @@ export function AnimG(){
       "/ad.jpg",
     ];
     return(
-        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='h-[38rem] sm:mb-[25rem]'>
+        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}
+         viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='h-[38rem]  shadow-xl 
+         -mb-4 sm:mb-[25rem] lg:h-[35.4rem] lg:mx-12 lg:mt-6 lg:mb-0 lg:flex'>
             <div className="carousel">
                 <div className="carousel-images">
                 <AnimatePresence>
@@ -452,8 +457,9 @@ export function AnimG(){
                 ))}
             </div>
             </div>
-            <div className=' bg-[#ffffff] h-[23.5rem] relative -top-[4rem] flex flex-col items-center px-2 mx-6 sm:mx-12 text-center'>
-                <div className='text-xl pt-11 font-medium sm:text-[3rem]'>Sophistication at its finest</div>
+            <div className=' bg-[#ffffff] h-[23.5rem] relative -top-[4rem] flex  shadow-xl 
+            flex-col items-center lg:top-0 lg:h-full lg:w-1/2 lg:mx-0 px-2 mx-6 sm:mx-12 text-center'>
+                <div className='text-xl pt-11 font-medium sm:text-[3rem] lg:text-4xl'>Sophistication at its finest</div>
                 <Image
               src="/icon.png"
               alt="Vercel Logo"
@@ -465,7 +471,7 @@ export function AnimG(){
                 <div className='text-[.8rem] px-5 sm:text-xl'>Explore our collection of rare magical crystal exhibits 
                 and immerse yourself in the art of potion-making at our dedicated Brewing Station. Alternatively,
                  delve into your tasks at our sophisticated Workstation zones, designed to cater to your professional needs.</div>
-                <button className="bg-red-900 text-sm sm:text-lg text-white py-1 px-6 rounded mt-[2.6rem]">BOOK NOW</button>
+                <button className="bg-red-900 text-sm  shadow-xl  sm:text-lg text-white py-1 px-6 rounded mt-[2.6rem]">BOOK NOW</button>
             </div>
         </motion.div>
     )
@@ -550,7 +556,9 @@ export function AnimH(){
       "/df.webp",
     ];
     return(
-        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='h-[35rem] sm:mb-[33rem]'>
+        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}
+         viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='h-[35rem] mt-6  shadow-xl 
+          -mb-[4.5rem] sm:mb-[33rem] lg:flex lg:h-[35.4rem] lg:mb-4 lg:mx-12'>
             <div className="carousel">
                 <div className="carousel-images">
                 <AnimatePresence>
@@ -596,8 +604,8 @@ export function AnimH(){
                 ))}
             </div>
             </div>
-            <div className=' bg-[#ffffff] h-[20.5rem] relative -top-[4rem] flex flex-col items-center px-2 mx-6 text-center sm:mx-12 sm:h-[27rem] '>
-                <div className='text-xl sm:text-[3rem] pt-11 font-medium'>Beautiful Suites</div>
+            <div className=' bg-[#ffffff] h-[20.5rem] relative -top-[4rem] flex flex-col lg:top-0 lg:h-full lg:w-1/2 lg:mx-0 items-center px-2 mx-6 text-center sm:mx-12 sm:h-[27rem] '>
+                <div className='text-xl sm:text-[3rem] pt-11 font-medium lg:text-4xl'>Beautiful Suites</div>
                 <Image
               src="/icon.png"
               alt="Vercel Logo"
@@ -611,7 +619,7 @@ export function AnimH(){
                  luxurious suites, thoughtfully carved into the cavern walls for an unforgettable experience.
                   Alternatively, embark on a guided tour through the enchanting Lumina Caverns, where you can
                    immerse yourself in the captivating stories of our planet's rich history.</div>
-                <button className="bg-red-900 text-[.8rem] sm:text-lg text-white font-bold py-1 px-8 rounded mt-[2rem]">MORE ABOUT US</button>
+                <button className="bg-red-900 text-[.8rem] sm:text-lg  shadow-xl  text-white font-bold py-1 px-8 rounded mt-[2rem]">MORE ABOUT US</button>
             </div>
         </motion.div>
     )
@@ -622,9 +630,9 @@ export function AnimI(){
     return(
         <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} 
         viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} 
-        className=' flex flex-col justify-center ml-4 h-[28.35rem] text-sm
-         sm:text-[2.5rem] sm:h-[34rem] sm:gap-8 text-center px-12'>
-            <div>PLENTY FOR EVERYONE</div>
+        className=' flex flex-col justify-center ml-4 h-[28.35rem] text-sm lg:w-1/2 lg:bg-white shadow-xl  lg:h-full
+         sm:text-[2rem] sm:ml-12 sm:mb-12 sm:h-[34rem] lg:text-lg sm:gap-8 text-center px-12 -mb-16 lg:gap-0.5 lg:justify-start lg:pt-6'>
+            <div className='sm:text-[2.5rem] lg:text-xl'>PLENTY FOR EVERYONE</div>
             <Image
               src="/icon.png"
               alt="Vercel Logo"
@@ -703,17 +711,20 @@ export function AnimI(){
     )
 }
 
-// GOOGLE MAP API
+// MAP
 export function AnimJ(){
- const keys= '${process.env.REACT_APP_API_KEY}'
     return(
-        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='border border-black h-[20.5rem]'>
-                {/* <script async src="https://maps.googleapis.com/maps/api/js?key={keys}&callback=console.debug&libraries=maps,marker&v=beta">
-    </script>
-                <gmp-map center="36.22531509399414,-115.26019287109375" zoom="14" map-id="DEMO_MAP_ID">
-      <gmp-advanced-marker position="36.22531509399414,-115.26019287109375" title="My location">
-      </gmp-advanced-marker>
-    </gmp-map> */}
+        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}
+         viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='sm:h-[36rem] h-[20.5rem] lg:h-96 lg:mr-12 lg:mb-0 lg:w-1/2 lg:bg-white 
+        lg:h-[26rem] lg:flex  shadow-xl  lg:items-center'>
+                <Image
+                src="/map.jpg"
+                alt="Vercel Logo"
+                className="mt-2 lg:m-auto  h-[70%] w-[70%]"
+                width={1000}
+                height={1000}
+                priority
+                />
         </motion.div>
     )
 }
@@ -724,17 +735,18 @@ export function AnimK(){
     return(
         <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}
          viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} 
-         className='grid grid-cols-2 grid-rows-4 gap-2.5 mx-4 mt-8 mb-3 h-[32rem] sm:h-[80rem]'>
-            <div className='border border-black col-span-2  mx-6 sm:h-[30rem]'>
-                <div className='text-xs sm:text-[2rem]  italic'>“I had an incredible experience at the Crystal Haven Inn.
+         className='grid grid-cols-2  grid-rows-4 gap-2.5 mx-4 mt-8 
+         mb-3 h-[32rem] sm:mx-12 sm:h-fit lg:mt-0 lg:h-[50rem] lg:grid-rows-3 lg:mt-0 lg:w-1/2 lg:mr-0'>
+            <div className=' col-span-2  mx-6  sm:px-12 sm:flex sm:flex-col sm:justify-center lg:col-span-1'>
+                <div className='text-xs sm:text-2xl lg:text-sm italic'>“I had an incredible experience at the Crystal Haven Inn.
                  The staff was wonderful, the sky was breathtaking and the Spa was a true oasis of relaxation. 
                  I hope to be able to return sometime during my travels.”</div>
-                <div className='text-xs pt-6 pb-4 font-bold'>-Enigma Travler</div>
+                <div className='text-xs pt-6 pb-4 font-bold sm:text-3xl lg:text-xs'>-Enigma Travler</div>
             </div>
             <Image
                 src="/ga.jpg"
                 alt="Vercel Logo"
-                className="row-span-2 h-full"
+                className="row-span-2 h-full md:w-full"
                 width={400}
                 height={400}
                 priority
@@ -742,7 +754,7 @@ export function AnimK(){
              <Image
                 src="/gb.webp"
                 alt="Vercel Logo"
-                className="h-full"
+                className="h-full md:w-full"
                 width={400}
                 height={400}
                 priority
@@ -750,7 +762,7 @@ export function AnimK(){
             <Image
                 src="/gc.jpg"
                 alt="Vercel Logo"
-                className="h-full"
+                className="h-full md:w-full"
                 width={400}
                 height={400}
                 priority
@@ -758,7 +770,7 @@ export function AnimK(){
             <Image
                 src="/gd.webp"
                 alt="Vercel Logo"
-                className="col-span-2 row-span-1 h-full w-full"
+                className=" h-full w-full"
                 width={400}
                 height={400}
                 priority
@@ -770,11 +782,13 @@ export function AnimK(){
 // Create an image Grid Gallery
 export function AnimL(){
     return(
-        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}} viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='grid grid-cols-2 grid-rows-4 gap-2 mx-4 h-[40rem]'>
+        <motion.div initial={{opacity:0,y:50}} whileInView={{opacity:1,y:0}}
+         viewport={{ amount: 0.2, margin: "500px 0px 0px 0px" }} className='sm:mx-12 sm:h-[100rem] grid grid-cols-2 grid-rows-4 
+         gap-2 mx-4 h-[40rem] lg:h-[50rem] lg:w-1/2 lg:ml-0 '>
             <Image
                 src="/gf.jpg"
                 alt="Vercel Logo"
-                className="col-span-2 row-span-2 h-full"
+                className="col-span-2 row-span-2 h-full w-full"
                 width={400}
                 height={400}
                 priority
@@ -782,7 +796,7 @@ export function AnimL(){
              <Image
                 src="/gg.jpg"
                 alt="Vercel Logo"
-                className=" col-span-2 h-full"
+                className=" col-span-2 h-full w-full"
                 width={400}
                 height={400}
                 priority
@@ -790,7 +804,7 @@ export function AnimL(){
             <Image
                 src="/gh.webp"
                 alt="Vercel Logo"
-                className="h-full"
+                className="h-full md:w-full"
                 width={400}
                 height={400}
                 priority
@@ -798,7 +812,7 @@ export function AnimL(){
             <Image
                 src="/gi.jpg"
                 alt="Vercel Logo"
-                className=" h-full w-full"
+                className=" h-full w-full "
                 width={400}
                 height={400}
                 priority
