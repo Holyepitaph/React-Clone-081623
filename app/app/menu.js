@@ -31,9 +31,9 @@ export function Menu(){
       }
     };
     return(
-        <motion.div className={isClick ? "h-full" : "h-20"} 
-        className="flex w-full flex-col items-center justify-between text-white  shadow-xl 
-        fixed top-2 left-0 right-0 bg-[#C9B79C]  pt-5 z-10">
+        <motion.div 
+        className={isClick ? "h-full flex w-full flex-col items-center justify-between text-white shadow-xl fixed top-2 left-0 right-0 bg-[#C9B79C] pt-5 z-10" 
+        : "h-20 flex w-full flex-col items-center justify-between text-white shadow-xl fixed top-2 left-0 right-0 bg-[#C9B79C] pt-5 z-10"}>
           <div className="flex gap-28 justify-evenly w-full">
               <div className='mt-1 cursor-pointer lg:text-3xl lg:-mt-1' onClick={toggleClickMenu}>=</div>
               <Image

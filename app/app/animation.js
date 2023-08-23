@@ -313,7 +313,7 @@ export function AnimF(){
             </div>
             <div className=' bg-[#ffffff] h-[20.8rem] relative -top-[4rem] lg:top-0  shadow-xl 
              lg:h-full lg:w-1/2 lg:mx-0 flex flex-col items-center px-2 mx-6 text-center sm:mx-12 sm:h-[25rem]'>
-                <div className='text-xl sm:text-[3rem] pt-11 font-medium lg:text-4xl'>Enjoy Nature's Wonders</div>
+                <div className='text-xl sm:text-[3rem] pt-11 font-medium lg:text-4xl'>Enjoy Nature&apos;s Wonders</div>
                 <Image
               src="/icon.png"
               alt="Vercel Logo"
@@ -618,7 +618,7 @@ export function AnimH(){
                 esteemed head chef, Finn, at our naturally illuminated Restaurant. Revel in the comfort of our
                  luxurious suites, thoughtfully carved into the cavern walls for an unforgettable experience.
                   Alternatively, embark on a guided tour through the enchanting Lumina Caverns, where you can
-                   immerse yourself in the captivating stories of our planet's rich history.</div>
+                   immerse yourself in the captivating stories of our planet&apos;s rich history.</div>
                 <button className="bg-red-900 text-[.8rem] sm:text-lg  shadow-xl  text-white font-bold py-1 px-8 rounded mt-[2rem]">MORE ABOUT US</button>
             </div>
         </motion.div>
